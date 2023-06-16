@@ -8,6 +8,7 @@
   --litle-text: #434455;
   --button-port-color: #e7e9fc;
   --costumers-color: #8e8f99;
+   --vector-color: #404bbf;
 }
 
 body {
@@ -260,6 +261,8 @@ img {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
+
 .advantages-icon-wrap {
   display: flex;
   align-items: center;
@@ -282,6 +285,8 @@ img {
 .advantages-item {
   width: calc((100% - 72px) / 4);
 }
+
+
 
 .products {
   padding-bottom: 120px;
@@ -491,8 +496,55 @@ display: flex;
   background-color: #31d0aa;
 }
 
-.footer-icon {
-  fill: var(--button-background-color);
+.footer-subscribe-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 80px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+  margin-left: 80px;
+}
+.footer-email-text {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+.footer-email-text::placeholder {
+  color: #ffffff;
+}
+.footer-btn-subs {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-subs-icon {
+  margin-left: 16px;
 }
 /**---------MODALKA----------------*/
 .backdrop {
